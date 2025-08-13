@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Chillax-Extralight', sans-serif;
+    font-family: 'Chillax', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -11,21 +12,37 @@ body {
 }
 
 header {
-    background: linear-gradient(90deg, #1a5c9b, #182848);
+    display: flex;
+    background: linear-gradient(180deg, #1a5c9b, #182848);
     color: white;
     padding: 2rem;
     text-align: center;
+    justify-content: center;
     position: relative;
+    
+    height: 100vh;
 }
 
 header h1 {
+    font-family: 'Chillax-Bold', sans-serif;
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
 }
 body p {
     font-family: 'Chillax-Medium', sans-serif;
     
+    font-size: 1rem;
+ }
+
+.ab-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ #ab-us-eslogan {
     font-size: 1.2rem;
+    color: #d4d4d4;
  }
 .lang-toggle {
     position: absolute;
@@ -51,6 +68,7 @@ body p {
 }
 
 nav {
+    font-family: 'Chillax-Semibold', sans-serif;
     background: #182848;
     padding: 1rem;
     text-align: center;
