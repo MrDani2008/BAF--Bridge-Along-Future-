@@ -32,18 +32,18 @@ body p {
     font-family: 'Chillax-Medium', sans-serif;
     
     font-size: 1rem;
- }
+}
 
 .ab-us {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
- }
+}
  #ab-us-eslogan {
     font-size: 1.2rem;
     color: #d4d4d4;
- }
+}
 .lang-toggle {
     position: absolute;
     top: 1rem;
@@ -237,6 +237,15 @@ footer {
     display: none;
 }
 
+/* Estilos responsive para el logo */
+.responsive-logo {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
 @media (max-width: 768px) {
     nav a {
         display: block;
@@ -249,5 +258,17 @@ footer {
 
     section {
         padding: 2rem 1rem;
+    }
+    
+    /* Logo responsive para móviles */
+    .responsive-logo {
+        max-width: 25em;
+        margin: 1rem auto;
+    }
+    
+    header {
+        padding: 1rem;
+        height: auto;
+        min-height: 100vh;
     }
 }
