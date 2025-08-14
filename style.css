@@ -239,8 +239,8 @@ footer {
 
 /* Estilos responsive para el logo */
 .responsive-logo {
-    width: 100%;
-    max-width: 400px;
+    width: 40em;
+    max-width: 40em;
     height: auto;
     margin: 0 auto;
     display: block;
